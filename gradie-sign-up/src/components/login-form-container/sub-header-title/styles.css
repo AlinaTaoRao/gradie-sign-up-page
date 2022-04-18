@@ -87,19 +87,16 @@ a:hover {
   background-color: #05455a;
 }
 
-  @media only screen and (max-width: 768px) {
-      
-    .sub-header-title {
-      background-color: red;
-      width: 85%;
-      position: relative;
-      left: -2%;
-      height: 300px;
-    }
-
-    a {
-      display: block;
-    }
-  
-  
+@media only screen and (max-width: 768px) {
+  .sub-header-title {
+    background-color: red;
+    width: 85%;
+    position: relative;
+    left: -2%;
+    height: 300px;
   }
+
+  a {
+    display: block;
+  }
+}
